@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	int A , B , C , S;
+	float X ;
+
+	cout <<"Enter your first Grade: ";
+	cin >> A;
+	cout <<"Enter your second Grade: ";
+	cin >> B;
+	cout <<"Enter your third Grade: ";
+	cin >> C;
+
+	S=A+B+C;
+	X=S/3;
+
+	cout<<"Rate = " << X <<endl;
+
+	if(X >=60)
+		cout<<"Pass";
+	else
+		cout<<"Fail";
+	
+
+	cout<<endl;
+return 0;
+}
